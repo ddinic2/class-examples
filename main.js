@@ -1,6 +1,5 @@
 
-
-let allHtml;
+let allHtml = "";
 
 class Column {
     column = 1;
@@ -30,7 +29,6 @@ class Row {
         this.number = number;
         this.columns = columns;
     }
-
     render = () => {
         let rowHtml = `<div style="display:flex;">`;
         for (let i = 0; i < this.columns; i++) {
