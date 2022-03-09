@@ -1,0 +1,19 @@
+.column-holder{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.column{
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    width: 20%;
+    height: 90vh;
+}
+.task{
+    background: lightblue;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 6px;
+}
